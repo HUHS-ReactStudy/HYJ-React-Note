@@ -1,12 +1,8 @@
 import React from 'react';
-import Router from './Chapter_13/Router';
+import NewsRouter from './Chapter_14/NewsRouter';
 
 function App() {
-  return (
-    <div className="App">
-      <Router />
-    </div>
-  );
+  return <NewsRouter />;
 }
 
 export default App;
